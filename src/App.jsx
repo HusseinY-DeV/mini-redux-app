@@ -3,6 +3,8 @@ import {connect} from 'react-redux';
 import styled from 'styled-components';
 import {useState} from 'react';
 import {addBlog} from './action';
+import Sibling from './Sibling';
+
 
 
 
@@ -57,6 +59,7 @@ function App(props) {
           </EachBlog>
         )
       })}
+      <Sibling />
     </div>
   );
 }
